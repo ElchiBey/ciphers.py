@@ -210,10 +210,3 @@ def decryptTranspositionCipher(text, key):
         result += text[i * (jump + 1) + jump]
 
     return result
-
-
-print(decryptTranspositionCipher('Ch oai 1!iePgmn-0prrrmg 1', 3))
-print(decryptTranspositionCipher('adgbehcf', 3))
-print(decryptTranspositionCipher('alpep', 3))
-print(decryptTranspositionCipher('ALPEP', 3))
-print(decryptTranspositionCipher('14253', 3))
